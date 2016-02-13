@@ -99,13 +99,11 @@
 		D5E76C0D1C6F7C1000669EEB /* TradeThatApp */ = {
 			isa = PBXGroup;
 			children = (
-				D5E76C0E1C6F7C1000669EEB /* AppDelegate.swift */,
-				D5E76C101C6F7C1000669EEB /* ViewController.swift */,
-				D5E76C121C6F7C1000669EEB /* Main.storyboard */,
-				D5E76C181C6F7C1000669EEB /* Assets.xcassets */,
-				D5E76C1A1C6F7C1000669EEB /* LaunchScreen.storyboard */,
-				D5E76C1D1C6F7C1000669EEB /* Info.plist */,
-				D5E76C151C6F7C1000669EEB /* TradeThatApp.xcdatamodeld */,
+				D5E76C401C6FA2A800669EEB /* Others */,
+				D5E76C3F1C6FA29E00669EEB /* Controllers */,
+				D5E76C411C6FA2B300669EEB /* Storyboards & Xibs */,
+				D5E76C431C6FA2D300669EEB /* Assets (Images) */,
+				D5E76C421C6FA2BD00669EEB /* CoreData */,
 			);
 			path = TradeThatApp;
 			sourceTree = "<group>";
@@ -126,6 +124,48 @@
 				D5E76C331C6F7C1000669EEB /* Info.plist */,
 			);
 			path = TradeThatAppUITests;
+			sourceTree = "<group>";
+		};
+		D5E76C3F1C6FA29E00669EEB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D5E76C101C6F7C1000669EEB /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D5E76C401C6FA2A800669EEB /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				D5E76C0E1C6F7C1000669EEB /* AppDelegate.swift */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		D5E76C411C6FA2B300669EEB /* Storyboards & Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				D5E76C121C6F7C1000669EEB /* Main.storyboard */,
+				D5E76C1A1C6F7C1000669EEB /* LaunchScreen.storyboard */,
+			);
+			name = "Storyboards & Xibs";
+			sourceTree = "<group>";
+		};
+		D5E76C421C6FA2BD00669EEB /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				D5E76C151C6F7C1000669EEB /* TradeThatApp.xcdatamodeld */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		D5E76C431C6FA2D300669EEB /* Assets (Images) */ = {
+			isa = PBXGroup;
+			children = (
+				D5E76C1D1C6F7C1000669EEB /* Info.plist */,
+				D5E76C181C6F7C1000669EEB /* Assets.xcassets */,
+			);
+			name = "Assets (Images)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
